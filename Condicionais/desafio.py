@@ -23,7 +23,7 @@ def main():
     escolha = int(input("qual a grandeza deseja calcular? (1/2/3): "))  # Solicita a escolha do usuário
 
     if escolha == 1:
-        resistencia = float(input("digite o valor da resistência (em Ohms): "))
+        resistencia = float(input("digite o valor da resistência (em Ohms): ")) 
         corrente = float(input("digite o valor da corrente (em Ampères): "))
         resultado = calcular_tensao(resistencia, corrente)
         print("a tensão é:", resultado, "Volts")
