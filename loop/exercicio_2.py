@@ -9,4 +9,4 @@ for i in range(5):
         contagem_pares += 1
 
 # Exibe o resultado
-print("A quantidade de números pares é:", contagem_pares)
+print("A quantidade de números pares é:", contagem_pares)ç
